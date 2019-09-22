@@ -1,0 +1,5 @@
+.kakala-container {
+  @include on-circle($item-count: 8, $circle-size: 20em, $item-size: 6em);
+  margin: 5em auto 0;
+  border: solid 5px tomato;
+}
